@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:700|Open+Sans:400');
+
+/* 
+
+#e7a458
+#f78727
+#e66503
+#ef7f16
+#fbdc8c
+#a63b00
+
+font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+*/
+.front-color{
+    color: whitesmoke;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Lato', sans-serif;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    height: 100%;
+}
+nav{
+    background: linear-gradient(to top,#f78727,gold);
+}
+.background-img{
+    background-image:linear-gradient(#a63a0085,#e6650383),url('../img/front/morning-assembly-q.jpg');
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo-text{
+    font-size: 1.5rem ;
+    font-family: 'Lato', sans-serif;
+    color: whitesmoke;
+}
+.logo-img{
+    border-radius: 50%;
+    height: auto;
+    width: 15vmax;
+    margin-top: 2rem;
+}
