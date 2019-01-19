@@ -6,3 +6,4 @@
 ## About Project
 - This is a static website for an school in Gadarwada, Madhya Pradesh.
 - I have made this website for free. My aim is to contribute help to growing schools and education institute.
+- "Good education is always a priority"
