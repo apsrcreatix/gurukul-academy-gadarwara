@@ -90,8 +90,96 @@ nav{
     padding: 15px;
     border-radius: 4px;
   }
-  footer,footer *{
-    background: #a63b00 !important;
+  footer{
+    background: linear-gradient(#a63b00,#642300) !important;
+    
+  }
+  footer * {
     color: whitesmoke !important;
   }
   
+ .logo-img,.logo-text,.background-img1,.background-img2,.background-img3{
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+}
+
+@keyframes fadein {
+    0%{
+        opacity: 0;
+        transform: translateY(150px);    
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);    
+        }
+    }
+
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    0%{
+        opacity: 0;
+        transform: translateY(150px);    
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);    
+        }
+    }
+
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    0%{
+        opacity: 0;
+        transform: translateY(150px);    
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);    
+        }
+    }
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    0%{
+        opacity: 0;
+        transform: translateY(150px);    
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);    
+        }
+    }
+
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    0%{
+        opacity: 0;
+        transform: translateY(150px);    
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);    
+        }
+    }
+    .zoom{
+border-radius: 10px;
+border:5px solid white;
+    }
+    .zoom:hover {
+        -ms-transform: scale(1.5); /* IE 9 */
+        -webkit-transform: scale(1.5); /* Safari 3-8 */
+        transform: scale(1.5); 
+    }
+    caption{
+        color: gray;
+        font-family: 'Lato', sans-serif;
+    }
+ .iconz{
+margin-left: 5px;
+ }
